@@ -1,11 +1,15 @@
 # Covid_Analysis
-RunMYSQL
+
+RunMYSQL :-
+
 Create SQL Database and run query database from database.sql
 
-Specs
+Specs :-
+
 In the database that you created, formulate and execute each of the following queries in SQL. In each case, you should attempt to handle the task in a single (possibly nested) SQL statement.
 
-Run these queries
+Run these queries :-
+
 The agedistribution_2016_estimates_ that has age wise distribution.
 
 The casetime that has the number of cases confirmed, recovered, daily decrease.
