@@ -1,0 +1,69 @@
+Questions
+
+
+Q1. Display the states, gender affected and the confirmed cases in their respective states where confirmed cases are more than 100
+
+Q2. Display the states which collected more than 1000 samples in day.
+
+Q3. Retrieve the state with maximum population, their density per sq km and group by descending order with respect to population
+
+Q4. Display the hospital beds along with their location where patients have recovered from covid-19 and those beds are made available to the needy patients waiting in the queue to get admitted.
+
+Q5. Display the total number of people in assam who have recovered
+
+Q6. Show the state, hospitals and beds available where beds and hospitals available are more than 1000.
+
+Q7. Show states where active cases are less
+
+Q8. Show the dates when the beds are available 
+
+Q9. Show the details of the number of samples tested across each timestamp
+
+Q10. Display the number of males and females who have recovered
+
+Q11. List the states where the population is greater than the number of beds available in descending order of serial number
+
+Q12. Display the number of patients who have recovered along with their dates.
+
+Q13. Show the ratio of male and female to the whole population for all states
+
+Q14. Display the total number of beds available in Tamil Nadu 
+
+Q15. Display the total number of beds available in india .
+
+Q16. Find out the Patients who tested negative after collection of sample.
+
+Q17. Show TotalSamplesTested and TotalPositiveCases with date and time
+
+Q18. Display the total number of hospitals available in india .
+
+Q19. Show the total population and active cases and the states.
+
+Q20. Find the 3rd minimum population in the population_distribution table and also find out the State and area per sq km.
+
+Q21.Show the Active Cases that are falling under the even dates of march and April in their respective states
+
+Q22. Display the total confirmed cases till 31-March in Maharashtra
+
+Q23. Find the ratio of female to male  between the age group of 50-54
+
+Q24. Display the total percentage of male and female being affected by covid-19 ranging between ‘0-50’
+
+Q 25. Display the States,Recovered cases and their population living under where area is less than 4000 sq km.
+
+Q 26. Find out the recovery rate among the states and display it along with the names of the states and the number of recovered & active cases.
+
+Q 27.   Display the age and the origin of those who recovered from covid-19 and is of masculine gender.
+
+Q 28. Display the states along with the ratio of Beds available against the total population beds
+
+Q29. Display the status of the patients in all the cities
+
+Q30. Display the death ratio of each state
+
+Q31. Display the population, hospital beds, ratio of hospital beds to population in every state
+
+Q32. Display the ratio of affected people in every state
+
+
+
