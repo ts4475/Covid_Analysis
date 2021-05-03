@@ -33,7 +33,6 @@ Run these queries :-
  **For the installation demo you can refer : https://youtu.be/5g0ZurU47jY**
 
 # Steps to fetch the data :
-For the installation demo you can refer : https://youtu.be/5g0ZurU47jY
 
 **Instructions for downloading the project:**
 
