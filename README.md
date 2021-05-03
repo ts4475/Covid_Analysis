@@ -35,7 +35,7 @@ Run these queries :-
 # Steps to fetch the data :
 For the installation demo you can refer : https://youtu.be/5g0ZurU47jY
 
-Instructions for downloading the project:
+**Instructions for downloading the project:**
 
 1. Install XAMPP server on your system to be used as local server for project. (lets say you installed it in 'K:\xampp_folder' folder)
 2. Download the zip file and unzip on any of the drive
