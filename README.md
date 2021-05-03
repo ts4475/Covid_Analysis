@@ -2,7 +2,7 @@
 
 RunMYSQL :-
 
-Create SQL Database and run query database from database.sql
+ **Create SQL Database and run query database from database.sql**
 
 Specs :-
 
