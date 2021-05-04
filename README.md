@@ -42,11 +42,13 @@ Run these queries :-
 4. Open your browser and type 'localhost/' or '127.0.0.1/' , then from there go to phpmyadmin.
 5. Create a database named:'covid_analysis' in phpmyadmin.
 6. Import the sql file from the folder to the phpadmin
-
 ![image](https://user-images.githubusercontent.com/83566090/116891362-3b75cd00-ac4c-11eb-8522-122a5bfe8de1.png)
 7. Congratulations! you are good to go for analysing data
 
-# COVID ANALYSIS SCHEMA
-![image](https://user-images.githubusercontent.com/83566090/116960417-ed99ad00-acbd-11eb-8b3b-d1315581e50d.png)
+## Relational schema for the given database
+![image](https://user-images.githubusercontent.com/83566090/116960694-cdb6b900-acbe-11eb-8c73-0f75e12cc0b9.png)
+
+
+
 
 
