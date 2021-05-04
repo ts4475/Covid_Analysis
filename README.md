@@ -46,3 +46,7 @@ Run these queries :-
 ![image](https://user-images.githubusercontent.com/83566090/116891362-3b75cd00-ac4c-11eb-8522-122a5bfe8de1.png)
 7. Congratulations! you are good to go for analysing data
 
+# COVID ANALYSIS SCHEMA
+![image](https://user-images.githubusercontent.com/83566090/116960417-ed99ad00-acbd-11eb-8b3b-d1315581e50d.png)
+
+
