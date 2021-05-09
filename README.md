@@ -46,6 +46,17 @@ Run these queries :-
 ![image](https://user-images.githubusercontent.com/83566090/116891362-3b75cd00-ac4c-11eb-8522-122a5bfe8de1.png)
 7. Congratulations! you are good to go for analysing data
 
+## Steps to connect database to front end using php
+ <ul>
+ <li> Create a databse in Xampp server</li>
+ <li> Create an HTML/CSS form and store it in a new folder in htdocs</li>
+ <li>Create the php page using mysqli_connect and store in the new folder in htdocs </li>
+ <li>Run the localhost URL and you're good to go!!</li>
+ </ul>
+ <br>
+ 
+ **Refer this link for detailed content : https://www.youtube.com/watch?v=HtTG5Kf_mTA**
+
 ## Steps to execute PL/SQL queries on Oracle
 <ul>
  <li>PL/SQL Queries does not execute on xampp server but it does easily execute on oracle </li>
@@ -57,9 +68,12 @@ Run these queries :-
  <li>After installation open the Command Prompt from the search bar </li>
  <li> Copy and paste this on the command prompt:   sqlplus "/ as sysdba" </li>
  <li>Oracle database will be connected to the sever, you are good to go to run the PL/SQL queries </li>
+ </ul>
  <br>
  
  **For detailed information  regarding PL/SQL visit : https://www.tutorialspoint.com/plsql/plsql_environment_setup.htm**
+ 
+
  
 
  
