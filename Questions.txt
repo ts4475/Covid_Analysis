@@ -65,5 +65,7 @@ Q31. Display the population, hospital beds, ratio of hospital beds to population
 
 Q32. Display the ratio of affected people in every state
 
+Q33. Display the first five affected states along with their respective active cases using PL/SQL 
 
+Q34. Check whether one belongs between the age 20-24 and also display the total population affected within the given range using PL/SQL
 
