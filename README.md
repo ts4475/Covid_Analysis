@@ -31,6 +31,7 @@ Run these queries :-
  https://www.apachefriends.org/download.html
  
  **For the installation demo you can refer : https://youtu.be/5g0ZurU47jY**
+ <br>
 
 ## Steps to fetch the data :
 
