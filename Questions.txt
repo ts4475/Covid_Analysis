@@ -45,9 +45,9 @@ Q21.Show the Active Cases that are falling under the even dates of march and Apr
 
 Q22. Display the total confirmed cases till 31-March in Maharashtra
 
-Q23. Find the ratio of female to male  between the age group of 50-54
+Q23. Find the ratio of female to male  between the age group of 50-54.
 
-Q24. Display the total percentage of male and female being affected by covid-19 ranging between ‘0-50’
+Q24. Display the total percentage of male and female being affected by covid-19 ranging between ‘0-50’.
 
 Q25. Display the States,Recovered cases and their population living under where area is less than 4000 sq km.
 
@@ -55,17 +55,18 @@ Q26. Find out the recovery rate among the states and display it along with the n
 
 Q27.   Display the age and the origin of those who recovered from covid-19 and is of masculine gender.
 
-Q28. Display the states along with the ratio of Beds available against the total population beds
+Q28. Display the states along with the ratio of Beds available against the total population beds.
 
-Q29. Display the status of the patients in all the cities
+Q29. Display the status of the patients in all the cities.
 
-Q30. Display the death ratio of each state
+Q30. Display the death ratio of each state.
 
-Q31. Display the population, hospital beds, ratio of hospital beds to population in every state
+Q31. Display the population, hospital beds, ratio of hospital beds to population in every state.
 
-Q32. Display the ratio of affected people in every state
+Q32. Display the ratio of affected people in every state.
 
-Q33. Display the first five affected states along with their respective active cases using PL/SQL 
+Q33. Display the first five affected states along with their respective active cases using PL/SQL.
 
-Q34. Check whether one belongs between the age 20-24 and also display the total population affected within the given range using PL/SQL
+Q34. Check whether one belongs between the age '20-24' and also display the total population affected within the given range using PL/SQL.
 
+Q35. Display the Patient's Status,City from which they belong where age is less than 50 yrs using PL/SQL.
