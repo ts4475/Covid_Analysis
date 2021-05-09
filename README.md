@@ -56,6 +56,7 @@ Run these queries :-
  <li>After installation open the Command Prompt from the search bar </li>
  <li> Copy and paste this on the command prompt:   sqlplus "/ as sysdba" </li>
  <li>Oracle database will be connected to the sever, you are good to go to run the PL/SQL queries </li>
+ <br>
  
  **For detailed information visit :https://www.tutorialspoint.com/plsql/plsql_environment_setup.htm**
  
