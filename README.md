@@ -58,7 +58,7 @@ Run these queries :-
  <li>Oracle database will be connected to the sever, you are good to go to run the PL/SQL queries </li>
  <br>
  
- **For detailed information  regarding PL/SQL visit :https://www.tutorialspoint.com/plsql/plsql_environment_setup.htm**
+ **For detailed information  regarding PL/SQL visit : https://www.tutorialspoint.com/plsql/plsql_environment_setup.htm**
  
 
  
