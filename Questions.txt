@@ -49,13 +49,13 @@ Q23. Find the ratio of female to male  between the age group of 50-54
 
 Q24. Display the total percentage of male and female being affected by covid-19 ranging between ‘0-50’
 
-Q 25. Display the States,Recovered cases and their population living under where area is less than 4000 sq km.
+Q25. Display the States,Recovered cases and their population living under where area is less than 4000 sq km.
 
-Q 26. Find out the recovery rate among the states and display it along with the names of the states and the number of recovered & active cases.
+Q26. Find out the recovery rate among the states and display it along with the names of the states and the number of recovered & active cases.
 
-Q 27.   Display the age and the origin of those who recovered from covid-19 and is of masculine gender.
+Q27.   Display the age and the origin of those who recovered from covid-19 and is of masculine gender.
 
-Q 28. Display the states along with the ratio of Beds available against the total population beds
+Q28. Display the states along with the ratio of Beds available against the total population beds
 
 Q29. Display the status of the patients in all the cities
 
