@@ -20,7 +20,26 @@ FROM populationdistribution_2011census_
 GROUP BY Population);
 
 
+DECLARE 
+   type states IS VARRAY(10) OF VARCHAR2(20); 
+   type actives IS VARRAY(7) OF INTEGER; 
+   state states; 
+   active actives; 
+   total integer;
+ 
+BEGIN 
+   state := states('Maharashtra','Tamil Nadu','Delhi','Kerala','Karnataka'); 
+   active:= actives(461, 404, 372,251,113); 
+   total := state.count; 
+   dbms_output.put_line('First '|| total || ' States with maximum covid cases are:-'); 
+   FOR i in 1 .. total LOOP 
+      dbms_output.put_line('State'||i||':' || state(i) || ' 
+      Active Cases: ' || active(i)); 
+   END LOOP; 
+END; 
+/
 
+                                
 SELECT death_and_recovery.Patient_status as 'Patient Status', death_and_recovery.State,death_and_recovery.City,hospitalbeds.Beds_Available
 FROM death_and_recovery
  RIGHT join hospitalbeds
@@ -71,7 +90,7 @@ sum(Female)/sum(population) as female_ratio
 FROM populationdistribution_2011census_;
 
 
-SELECT Beds_Available FROM `hospitalbeds` WHERE State_UT=’Tamil Nadu’;
+SELECT Beds_Available FROM `hospitalbeds` WHERE State_UT=â€™Tamil Naduâ€™;
 
   
 SELECT SUM(Beds_Available)  FROM `hospitalbeds`;
