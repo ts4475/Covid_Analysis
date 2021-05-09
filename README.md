@@ -45,6 +45,22 @@ Run these queries :-
 ![image](https://user-images.githubusercontent.com/83566090/116891362-3b75cd00-ac4c-11eb-8522-122a5bfe8de1.png)
 7. Congratulations! you are good to go for analysing data
 
+## Steps to execute PL/SQL queries on Oracle
+<ul>
+ <li>PL/SQL Queries does not execute on xampp server but it does easily execute on oracle </li>
+ <li>So to run those queries we need to install Oracle Database 19c Edition </li>
+ <li>Create an account https://www.oracle.com/index.html </li>
+ <li>Sign in to your account </li>
+ <li>https://www.oracle.com/in/database/technologies/oracle-database-software-downloads.html Click this link for downloading the zip file of 19c version in accordance with the operating system in your system </li>
+ <li>After downloading the file ....check this link for the detailed installation....do the steps very carefully....its gonna take time but hold  on your patience...https://youtu.be/Hnpmy2kB5Mo </li>
+ <li>After installation open the Command Prompt from the search bar </li>
+ <li> Copy and paste this on the command prompt:   sqlplus "/ as sysdba" </li>
+ <li>Oracle database will be connected to the sever, you are good to go to run the PL/SQL queries </li>
+ 
+ **For detailed information visit :https://www.tutorialspoint.com/plsql/plsql_environment_setup.htm**
+ 
+
+ 
 ## Relational schema for the given database
 ![image](https://user-images.githubusercontent.com/83566090/116960694-cdb6b900-acbe-11eb-8c73-0f75e12cc0b9.png)
 
