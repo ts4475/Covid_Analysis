@@ -70,3 +70,15 @@ Q33. Display the first five affected states along with their respective active c
 Q34. Check whether one belongs between the age '20-24' and also display the total population affected within the given range using PL/SQL.
 
 Q35. Display the Patient's Status,City from which they belong where age is less than 50 yrs using PL/SQL.
+
+Q36. Display the data for the people who have been confirmed and recovered for each state from the statewise table 
+
+Q37. Display the male and female population among each state from the populationdistribution_2011census_ table
+
+Q38. Show the timestamp for total samples tested and total individuals tested 
+
+Q39. Find the number of hospital beds available in each state 
+
+Q40. Display the patient status in each state from the death_and_recovery table
+
+Q41. Display the number of people who have been confirmed each day and the total number of confirmed people.
