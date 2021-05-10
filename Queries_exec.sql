@@ -1,3 +1,4 @@
+--PL/SQL
 
 SELECT DISTINCT State,Gender,Confirmed
 FROM death_and_recovery
@@ -34,7 +35,6 @@ BEGIN
 END; 
 /
 
-                                                                               
 
 SELECT statewisedata.sno as 'Serial No.', statewisedata.State_UT,icmrtestingdata.TotalSamplesTested
 FROM icmrtestingdata
@@ -104,8 +104,41 @@ BEGIN
    dbms_output.put_line('Total Population affected within 20-24 is 35%') ; 
 END; 
 /
+                                
+--Selfjoin
+                                
+SELECT A.Confirmed, B.Recovered, A.State_UT
+FROM statewisedata A, statewisedata B
+WHERE A.sno <> B.State_UT
+AND A.State_UT = B.State_UT
+ORDER BY A.State_UT;
+                               
+ SELECT A.Population, B.Male, A.Female,B.State_UT
+FROM populationdistribution_2011census_ A, populationdistribution_2011census_ B
+WHERE A.Rank =B.Rank
+AND A.State_UT = B.State_UT
+ORDER BY A.State_UT;
+
+SELECT A.UpdatedTimeStamp, B.TotalSamplesTested, A.Totalindividualstested
+FROM icmrtestingdata A,icmrtestingdata B
+WHERE A.Source = B.Source;
+
+SELECT A.Beds_Available, B.State_UT
+FROM hospitalbeds A, hospitalbeds B
+WHERE  A.State_UT = B.State_UT
+ORDER BY A.State_UT;
+
+SELECT A.Patient_status, B.City,A.Age
+FROM death_and_recovery A, death_and_recovery B
+WHERE  A.State = B.State
+ORDER BY A.State;
+
+SELECT A.Daily_confirmed, B.Total_confirmed
+FROM casetime A, casetime B
+WHERE  A.Daily_confirmed = B.Daily_confirmed;
 
 
+                                --Other queries for analysis
 
 SELECT State_UT,Hospitals_Available,Beds_Available
 FROM hospitalbeds WHERE Hospitals_Available>1000 AND Population_beds>1000;
