@@ -48,7 +48,7 @@ Run these queries :-
 
 ## Steps to connect database to front end using php
  <ul>
- <li> Create a databse in Xampp server</li>
+ <li> Create a database in Xampp server</li>
  <li> Create an HTML/CSS form and store it in a new folder in htdocs</li>
  <li>Create the php page using mysqli_connect and store in the new folder in htdocs </li>
  <li>Run the localhost URL and you're good to go!!</li>
