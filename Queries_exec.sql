@@ -1,4 +1,3 @@
---PL/SQL
 
 SELECT DISTINCT State,Gender,Confirmed
 FROM death_and_recovery
@@ -6,6 +5,7 @@ INNER JOIN statewisedata
 ON death_and_recovery.State=statewisedata.State_UT
 WHERE Confirmed>100;
 
+--PL/SQL
 
 DECLARE 
    type Age IS VARRAY(10) OF INTEGER; 
@@ -50,6 +50,7 @@ WHERE(State_UT, Population) IN
 FROM populationdistribution_2011census_
 GROUP BY Population);
 
+--PL/SQL
 
 DECLARE 
    type states IS VARRAY(10) OF VARCHAR2(20); 
@@ -83,6 +84,7 @@ SELECT COUNT(Patient_status)
 FROM death_and_recovery
 WHERE Patient_status="Recovered" And State="Assam";
                                 
+--PL/SQL
 
 DECLARE 
    age number(10) := 0;
