@@ -27,7 +27,7 @@ Run these queries :-
 * The statewisedata that has state wise data of positive and recovered cases.
 
 **DECLARATION :** 
- This project can be run on Xampp Server, don't worry if you don't have...click the link below to install Xampp server
+ This Project can be run on Xampp Server, don't worry if you don't have...click the link below to install Xampp server
  https://www.apachefriends.org/download.html
  
  **For the installation demo you can refer : https://youtu.be/5g0ZurU47jY**
